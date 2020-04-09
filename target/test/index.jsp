@@ -29,6 +29,11 @@
 <label>生成的SQL语句</label>
 <br>
 <h3><%=param%></h3>
-
+<script  type="text/javascript">
+    function goBack() {
+        history.back();
+    }
+</script>
+<button onclick="goBack()" >返回</button>
 </body>
 </html>
